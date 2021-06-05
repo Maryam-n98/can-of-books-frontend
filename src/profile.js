@@ -14,7 +14,7 @@ class Profile extends React.Component {
                     <h2>{user.email}</h2>
                 </>} */}
                 
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '20rem' }}>
                         <Card.Title> <h1>{user.name}</h1></Card.Title>
                         {isAuthenticated && <> <Card.Img variant="top" src={user.picture} alt='' />  </>}
                                <Card.Body>
